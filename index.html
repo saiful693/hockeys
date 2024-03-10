@@ -519,7 +519,7 @@
         </section>
 
         <!-- horizontal line -->
-        <div class="border-t border-dashed border-hr-border mt-20">
+        <div class="border-t  border-dashed border-hr-border mt-20">
         </div>
 
         <!-- get in touch -->
@@ -532,23 +532,23 @@
 
 
             <!-- touch -->
-            <div class="flex  gap-12 mt-12">
+            <div class="flex  flex-col lg:flex-row gap-12 mt-12">
                 <!-- 1 -->
-                <div class="border max-w-6xl border-gray-200 p-12 rounded-2xl">
+                <div class="border max-w-6xl border-gray-200 p-4 lg:p-12 rounded-2xl">
                     <!-- 1st card -->
-                    <div class="p-8 space-y-4 rounded-2xl w-[374px] bg-[#BCED6D19]">
+                    <div class="p-8 space-y-3 rounded-2xl lg:w-[374px] bg-[#BCED6D19]">
                         <img src="Images/Group 1171275317.png" alt="">
                         <p>Phone Number :</p>
                         <h4 class="font-bold text-xl">(+62) 123-321-543</h4>
                     </div>
                     <!-- email card -->
-                    <div class="p-8 mt-6 space-y-4 rounded-2xl w-[374px] bg-[#FDDD5F19]">
+                    <div class="p-8 mt-6 space-y-3 rounded-2xl lg:w-[374px] bg-[#FDDD5F19]">
                         <img src="Images/Group 1171275318.png" alt="">
                         <p>Email :</p>
                         <h4 class="font-bold text-xl">hockeys@support.com</h4>
                     </div>
                     <!-- location card -->
-                    <div class="p-8 mt-6 space-y-4 rounded-2xl w-[374px] bg-[#629CF319]">
+                    <div class="p-8 mt-6 space-y-3 rounded-2xl lg:w-[374px] bg-[#629CF319]">
                         <img src="Images/Group 1171275321.png" alt="">
                         <p>Location :</p>
                         <h4 class="font-bold text-xl">152/1 Mohakhali Wireless Gate</h4>
@@ -556,43 +556,69 @@
 
                 </div>
                 <!-- 2 -->
-                <div class="flex-1 ">
+                <div class="flex-1">
                     <form>
                         <!-- name -->
-                       <div class="grid gap-8 grid-cols-2">
-                        <label class="form-control w-full max-w-xs">
+                       <div class="grid gap-8 grid-cols-1 lg:grid-cols-2">
+                        <label class="form-control w-full lg:max-w-[350px]">
                             <div class="label">
                                 <span class="label-text text-xl font-bold">Your Name</span>
                             </div>
                             <input type="text" placeholder="Enter your full name"
-                                class="input input-bordered w-80 border-none bg-[#13131808]" />
+                                class="input input-bordered w-full border-none bg-[#13131808]" />
                         </label>
-                        <label class="form-control w-full max-w-xs">
+                        <label class="form-control w-full lg:max-w-[350px]">
                             <div class="label">
                                 <span class="label-text text-xl font-bold">Subject</span>
                             </div>
                             <input type="text" placeholder="Enter your subject"
-                                class="input input-bordered w-80 border-none bg-[#13131808]" />
+                                class="input input-bordered w-full border-none bg-[#13131808]" />
                         </label>
-                        <label class="form-control w-full max-w-xs">
+                        <label class="form-control w-full lg:max-w-[350px]">
                             <div class="label">
                                 <span class="label-text text-xl font-bold">Phone Number</span>
                             </div>
                             <input type="text" placeholder="Enter your phone number"
-                                class="input input-bordered w-80 border-none bg-[#13131808]" />
+                                class="input input-bordered w-full border-none bg-[#13131808]" />
                         </label>
-                        <label class="form-control w-full max-w-xs">
+                        <label class="form-control w-full lg:max-w-[350px]">
                             <div class="label">
                                 <span class="label-text text-xl font-bold">Your Email</span>
                             </div>
                             <input type="text" placeholder="Enter your email"
-                                class="input input-bordered w-80 border-none bg-[#13131808]" />
+                                class="input input-bordered w-full border-none bg-[#13131808]" />
                         </label>
+                       </div>
+                
+                       
+                       <div class="lg:max-w-[850px]">
+                        <!-- Textarea -->
+                        <label class="form-control mt-8">
+                            <div class="label">
+                              <span class="label-text text-xl font-bold">Message</span>
+                            </div>
+                            <textarea class="textarea textarea-bordered  h-48 lg:h-72 bg-[#13131808]" placeholder="Write your message"></textarea>
+                          </label>
+                           <div class="">
+                            <button class="btn btn-block my-10 text-white bg-color-primary">Send Message</button>
+                           </div>
                        </div>
                     </form>
 
                 </div>
             </div>
+        </section>
+
+        <!-- social media section -->
+        <section class="mx-2 lg:mx-0 my-10 text-center bg-gray-100 rounded-xl py-9">
+            <h3 class="text-primary-black font-extrabold text-2xl">Social Media</h3>
+            <div class="mt-3 space-x-7">
+                <i class="fa-brands fa-twitter fa-lg"></i>
+                <i class="fa-brands fa-facebook-f fa-lg"></i>
+                <i class="fa-brands fa-instagram fa-lg"></i>
+                <i class="fa-brands fa-github fa-lg"></i>
+            </div>
+
         </section>
 
     </main>
